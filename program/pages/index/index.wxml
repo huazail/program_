@@ -1,0 +1,504 @@
+<!-- 首页 -->
+<view class="index">
+  <!-- 自定义顶部导航 -->
+  <view class="custom">
+    <image src="./src/img/zlyj.png"></image>
+    </view>
+     <!-- 详情区域 -->
+     <view class="details">
+      <view class="input">
+        <input type="text" placeholder="搜索关键词 , 找到您想要的商品"/>
+      </view>
+      <!-- 轮播图 -->
+      <view class="rotation">
+        <swiper 
+        autoplay="true"
+        indicator-dots="true"
+        indicator-color="#fff"
+        indicator-active-color="#0f0"
+        >
+          <swiper-item>
+            <image src="../index/src/img/djxp.png"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="../index/src/img/sh.png"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="../index/src/img/hg.png"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="../index/src/img/pz.png"></image>
+          </swiper-item>
+        </swiper>
+      </view>
+      <!-- 产品分类 -->
+      <view class="classification">
+        <view class="classification_pro">
+          <view class="product">
+           <navigator url="#"><image src="./src/img/1.png"></image>
+            <text>空调</text>
+          </navigator>
+          </view>
+          <view class="product">
+            <navigator url="#"><image src="./src/img/2.png"></image>
+            <text>冰箱</text>
+          </navigator>
+
+          </view>
+          <view class="product">
+            <navigator url="#"><image src="./src/img/3.png"></image>
+            <text>彩电</text>
+          </navigator>
+
+          </view>
+          <view class="product">
+            <navigator url="#"><image src="./src/img/4.png"></image>
+            <text>厨电</text>
+          </navigator>
+
+          </view>
+          <view class="product">
+            <navigator url="#"><image src="./src/img/5.png"></image>
+            <text>洗衣机</text>
+          </navigator>
+
+          </view>
+          <view class="product">
+            <navigator url="#"><image src="./src/img/6.png"></image>
+            <text>热水器</text>
+          </navigator>
+
+          </view>
+          <view class="product">
+            <navigator url="#"><image src="./src/img/7.png"></image>
+            <text>净水器</text>
+          </navigator>
+
+          </view>
+          <view class="product">
+            <navigator url="#"><image src="./src/img/8.png"></image>
+            <text>小电器</text>
+          </navigator>
+
+          </view>
+          <view class="product">
+            <navigator url="#"><image src="./src/img/9.png"></image>
+            <text>中央空调</text>
+          </navigator>
+
+          </view>
+          <view class="product">
+            <navigator url="#"><image src="./src/img/10.png"></image>
+            <text>时尚家居</text>
+          </navigator>
+
+          </view>
+          
+        </view>
+      </view>
+
+      <!-- 会员专属价 -->
+      <view class="member">
+        <image src="./src/img/hy.png"></image>
+      </view>
+
+      <!-- 会员专享 -->
+      <view class="vip">
+        <!-- top -->
+        <view class="vip_top">
+          <view class="vip_top_left ">
+            <view class="fl"><text>会员专享</text></view>
+            <view class="fl"><text>满100减5</text>
+            </view>
+            <view class="fl"><text>立享7折</text></view>
+
+          </view>
+          <view class="vip_top_right fr">
+            <text>更多 ></text>
+          </view>
+          <view class="cl"></view>
+        </view>
+        <view class="vip_buttom">
+            <view class="md">
+              <image src="./src/img/md.png"></image>
+              <text>￥</text>
+              <text>2998</text>
+            </view>
+            <view class="md">
+              <image src="./src/img/md.png"></image>
+              <text>￥</text>
+              <text>2998</text>
+            </view>
+            <view class="md">
+              <image src="./src/img/md.png"></image>
+              <text>￥</text>
+              <text>2998</text>
+            </view>
+            <view class="md">
+              <image src="./src/img/md.png"></image>
+              <text>￥</text>
+              <text>2998</text>
+            </view>
+        </view>
+      </view>
+      <!-- 生活新主张 -->
+      <view class="life">
+        <image src="./src/img/sh.png"></image>
+      </view>
+      <!-- 新品专区 -->
+      <view class="products">
+
+        <view class="title">
+          <image src="./src/img/slogo.png"></image>
+          <text>新品专区</text>
+          <image src="./src/img/slogo.png"></image>
+        </view>
+        <!-- 产品区域 -->
+        <scroll-view class="products_pro" scroll-x="{{true}}">
+
+          <view class="products_pro_upgrade">
+            <image src="./src/img/sslo.png"></image>
+            <text>美的(Midea)31\n能风冷无霜...</text>
+            <text>￥1999</text>
+            <text>￥2399</text>
+          </view>
+      
+          <view class="products_pro_upgrade">
+            <image src="./src/img/sslo.png"></image>
+            <text>美的(Midea)31\n能风冷无霜...</text>
+            <text>￥1999</text>
+            <text>￥2399</text>
+          </view>
+
+          <view class="products_pro_upgrade">
+            <image src="./src/img/sslo.png"></image>
+            <text>美的(Midea)31\n能风冷无霜...</text>
+            <text>￥1999</text>
+            <text>￥2399</text>
+          </view>
+
+          <view class="products_pro_upgrade">
+            <image src="./src/img/sslo.png"></image>
+            <text>美的(Midea)31\n能风冷无霜...</text>
+            <text>￥1999</text>
+            <text>￥2399</text>
+          </view>
+          <view class="products_pro_upgrade">
+            <image src="./src/img/sslo.png"></image>
+            <text>美的(Midea)31\n能风冷无霜...</text>
+            <text>￥1999</text>
+            <text>￥2399</text>
+          </view>
+          <view class="products_pro_upgrade">
+            <image src="./src/img/sslo.png"></image>
+            <text>美的(Midea)31\n能风冷无霜...</text>
+            <text>￥1999</text>
+            <text>￥2399</text>
+          </view>
+          <view class="products_pro_upgrade">
+            <image src="./src/img/sslo.png"></image>
+            <text>美的(Midea)31\n能风冷无霜...</text>
+            <text>￥1999</text>
+            <text>￥2399</text>
+          </view>
+          <view class="products_pro_upgrade">
+            <image src="./src/img/sslo.png"></image>
+            <text>美的(Midea)31\n能风冷无霜...</text>
+            <text>￥1999</text>
+            <text>￥2399</text>
+          </view>
+          <view class="products_pro_upgrade">
+            <image src="./src/img/sslo.png"></image>
+            <text>美的(Midea)31\n能风冷无霜...</text>
+            <text>￥1999</text>
+            <text>￥2399</text>
+          </view>
+          <view class="products_pro_upgrade">
+            <image src="./src/img/sslo.png"></image>
+            <text>美的(Midea)31\n能风冷无霜...</text>
+            <text>￥1999</text>
+            <text>￥2399</text>
+          </view>
+          <view class="products_pro_upgrade">
+            <image src="./src/img/sslo.png"></image>
+            <text>美的(Midea)31\n能风冷无霜...</text>
+            <text>￥1999</text>
+            <text>￥2399</text>
+          </view>
+        </scroll-view>
+      
+      </view>
+      <view class="tp">
+            <image src="./src/img/yh.png"></image>
+          </view>
+
+      <!-- 促销专区 -->
+          <view class="products">
+        <view class="title">
+          <image src="./src/img/slogo.png"></image>
+          <text>促销专区</text>
+          <image src="./src/img/slogo.png"></image>
+        </view>
+        <!-- 产品区域 -->
+        <scroll-view class="products_pro" scroll-x="{{true}}">
+
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+</scroll-view>
+      </view>
+      <view class="tp">
+            <image src="./src/img/hg.png"></image>
+          </view>
+          <!-- 热销专区 -->
+          <view class="products">
+        <view class="title">
+          <image src="./src/img/slogo.png"></image>
+          <text>热销专区</text>
+          <image src="./src/img/slogo.png"></image>
+        </view>
+        <!-- 产品区域 -->
+        <scroll-view class="products_pro" scroll-x="{{true}}">
+
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+</scroll-view>
+      </view>
+      
+      <view class="tp">
+            <image src="./src/img/pz.png"></image>
+          </view>
+
+
+          <view class="products">
+        <view class="title">
+          <image src="./src/img/slogo.png"></image>
+          <text>新品专区</text>
+          <image src="./src/img/slogo.png"></image>
+        </view>
+        <!-- 产品区域 -->
+        <scroll-view class="products_pro" scroll-x="{{true}}">
+
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+<view class="products_pro_upgrade">
+  <image src="./src/img/sslo.png"></image>
+  <text>美的(Midea)31\n能风冷无霜...</text>
+  <text>￥1999</text>
+  <text>￥2399</text>
+</view>
+</scroll-view>
+      </view>
+      
+  </view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</view>
